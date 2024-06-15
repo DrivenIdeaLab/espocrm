@@ -1,0 +1,872 @@
+repo_name: DrivenIdeaLab/espocrm
+report_id: 89a2c2fcb31bde5baff89973c9005d4e
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T18:01:43+00:00'
+requested_by: yurikuzn
+provider: github
+branch: master
+detected_tools_count: 66
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  version: 4.7.7
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2021-06-19 14:27:23.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Taras Machyshyn
+  last_updated_on: 2021-01-25 12:55:03.000000000 Z
+- name: Backbone.js
+  description: Give your JS App some Backbone with Models, Views, Collections, and
+    Events
+  website_url: http://backbonejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/1017/Screen_Shot_2012-04-28_at_8.52.15_PM.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-03-23 10:02:01.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2021-06-21 08:48:53.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-06 07:27:13.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/.github/workflows/test-integration-pg.yml
+  detection_source: ".github/workflows/test-integration-pg.yml"
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-12-04 08:50:56.000000000 Z
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 1.5.3
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-19 15:03:24.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-06-10 07:00:59.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Taras Machyshyn
+  last_updated_on: 2021-01-25 12:55:03.000000000 Z
+- name: PHPStan
+  description: PHP Static Analysis Tool - discover bugs in your code without running
+    it!
+  website_url: https://github.com/phpstan/phpstan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/8333/phpst.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Taras Machyshyn
+  last_updated_on: 2013-11-01 11:49:54.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Taras Machyshyn
+  last_updated_on: 2013-11-01 11:49:54.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Taras Machyshyn
+  last_updated_on: 2021-01-25 12:55:03.000000000 Z
+- name: FullCalendar
+  description: A full-sized drag &amp; drop JavaScript event calendar
+  website_url: https://fullcalendar.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/5979/default_8b58ea1423b69bf123fae8f58e4887b9b4fdb1b4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-03 17:46:13.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-03 17:46:13.000000000 Z
+- name: Monolog
+  website_url: https://github.com/Seldaek/monolog
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 13:06:47.000000000 Z
+- name: Underscore
+  description: JavaScript's utility _ belt
+  website_url: http://underscorejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/1150/underscore-js.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-06-10 07:00:59.000000000 Z
+- name: summernote
+  website_url: https://summernote.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9106/no-img-open-source.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-04-20 07:54:02.000000000 Z
+- name: cboden/ratchet
+  description: PHP WebSocket library
+  package_url: https://packagist.org/cboden/ratchet
+  version: 0.4.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-05 06:38:23.000000000 Z
+- name: composer/semver
+  description: Semver library that offers utilities
+  package_url: https://packagist.org/composer/semver
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2020-08-27 11:52:15.000000000 Z
+- name: doctrine/dbal
+  description: Powerful PHP database abstraction layer
+  package_url: https://packagist.org/doctrine/dbal
+  version: 3.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-02-02 14:11:59.000000000 Z
+- name: dompdf/dompdf
+  description: DOMPDF is a CSS 2.1 compliant HTML to PDF converter
+  package_url: https://packagist.org/dompdf/dompdf
+  version: 2.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-10 13:15:39.000000000 Z
+- name: dragonmantank/cron-expression
+  description: 'CRON for PHP: Calculate the next or previous run date and determine
+    if a CRON expression is due'
+  package_url: https://packagist.org/dragonmantank/cron-expression
+  version: 3.3.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-02-14 10:47:33.000000000 Z
+- name: guzzlehttp/psr7
+  description: PSR-7 message implementation that also provides common utility methods
+  package_url: https://packagist.org/guzzlehttp/psr7
+  version: 1.9.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 10:41:59.000000000 Z
+- name: johngrogg/ics-parser
+  description: ICS Parser
+  package_url: https://packagist.org/johngrogg/ics-parser
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-03-27 12:04:55.000000000 Z
+- name: michelf/php-markdown
+  description: PHP Markdown
+  package_url: https://packagist.org/michelf/php-markdown
+  version: 1.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-03-15 12:54:02.000000000 Z
+- name: monolog/monolog
+  description: Sends your logs to files
+  package_url: https://packagist.org/monolog/monolog
+  version: 3.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 13:06:47.000000000 Z
+- name: nesbot/carbon
+  description: An API extension for DateTime that supports 281 different languages
+  package_url: https://packagist.org/nesbot/carbon
+  version: 2.62.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 10:41:59.000000000 Z
+- name: phpoffice/phpspreadsheet
+  description: PHPSpreadsheet - Read
+  package_url: https://packagist.org/phpoffice/phpspreadsheet
+  version: 1.16.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-03-15 12:54:02.000000000 Z
+- name: phpseclib/phpseclib
+  description: PHP Secure Communications Library - Pure-PHP implementations of RSA
+  package_url: https://packagist.org/phpseclib/phpseclib
+  version: 3.0.37
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-03-15 12:54:02.000000000 Z
+- name: phpstan/phpstan
+  description: PHPStan - PHP Static Analysis Tool
+  package_url: https://packagist.org/phpstan/phpstan
+  version: 1.10.57
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-03-15 12:54:02.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-03-15 12:54:02.000000000 Z
+- name: picqer/php-barcode-generator
+  description: An easy to use, non-bloated, barcode generator in PHP
+  package_url: https://packagist.org/picqer/php-barcode-generator
+  version: 2.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2024-03-15 12:54:02.000000000 Z
+- name: psr/container
+  description: Common Container Interface
+  package_url: https://packagist.org/psr/container
+  version: 1.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 13:16:00.000000000 Z
+- name: psr/http-message
+  description: Common interface for HTTP messages
+  package_url: https://packagist.org/psr/http-message
+  version: '1.1'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 13:16:00.000000000 Z
+- name: psr/log
+  description: Common interface for logging libraries
+  package_url: https://packagist.org/psr/log
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 13:16:00.000000000 Z
+- name: react/zmq
+  description: ZeroMQ bindings for React
+  package_url: https://packagist.org/react/zmq
+  version: 0.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: yuri
+  last_updated_on: 2019-02-01 15:07:14.000000000 Z
+- name: robthree/twofactorauth
+  description: Two Factor Authentication
+  package_url: https://packagist.org/robthree/twofactorauth
+  version: 1.6.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2021-06-27 09:07:19.000000000 Z
+- name: slim/psr7
+  description: Strict PSR-7 implementation
+  package_url: https://packagist.org/slim/psr7
+  version: 1.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 11:43:30.000000000 Z
+- name: slim/slim
+  description: Slim is a PHP micro framework that helps you quickly write simple yet
+    powerful web applications and APIs
+  package_url: https://packagist.org/slim/slim
+  version: 4.12.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 11:43:30.000000000 Z
+- name: symfony/http-foundation
+  description: Defines an object-oriented layer for the HTTP specification
+  package_url: https://packagist.org/symfony/http-foundation
+  version: 6.0.20
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-11-23 10:41:59.000000000 Z
+- name: symfony/process
+  description: Executes commands in sub-processes
+  package_url: https://packagist.org/symfony/process
+  version: 6.0.19
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-05 06:38:23.000000000 Z
+- name: symfony/routing
+  description: Maps an HTTP request to a set of configuration variables
+  package_url: https://packagist.org/symfony/routing
+  version: 6.0.19
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-05 06:38:23.000000000 Z
+- name: zordius/lightncandy
+  description: An extremely fast PHP implementation of handlebars
+  package_url: https://packagist.org/zordius/lightncandy
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2021-02-26 07:26:40.000000000 Z
+- name: archiver
+  description: A streaming interface for archive generation
+  package_url: https://www.npmjs.com/archiver
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2022-02-04 09:54:47.000000000 Z
+- name: fstream
+  description: Advanced file system stream things
+  package_url: https://www.npmjs.com/fstream
+  version: 1.0.12
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17330/default_1e90600620937d8a59b79d4a426c6d60e5051788.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Taras Machyshyn
+  last_updated_on: 2021-01-25 12:55:03.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.2.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-05-31 08:34:39.000000000 Z
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-19 15:03:24.000000000 Z
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-19 15:03:24.000000000 Z
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-19 15:03:24.000000000 Z
+- name: grunt-contrib-cssmin
+  description: Minify CSS
+  package_url: https://www.npmjs.com/grunt-contrib-cssmin
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16324/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-19 15:03:24.000000000 Z
+- name: grunt-contrib-less
+  description: Compile LESS files to CSS
+  package_url: https://www.npmjs.com/grunt-contrib-less
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16581/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-19 15:03:24.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-19 15:03:24.000000000 Z
+- name: grunt-replace
+  description: Replace text patterns with applause
+  package_url: https://www.npmjs.com/grunt-replace
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17362/default_943e7509740d800703ae1a754d4357f84d3c51e8.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-19 15:03:24.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2021-06-19 14:27:23.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-06-10 07:00:59.000000000 Z
+- name: js-base64
+  description: Yet another Base64 transcoder in pure-JS
+  package_url: https://www.npmjs.com/js-base64
+  version: 3.7.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16984/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2022-03-31 15:57:15.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Taras Machyshyn
+  last_updated_on: 2021-01-25 12:55:03.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 4.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2022-01-18 11:40:42.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-03 17:46:13.000000000 Z
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.41
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yuri Kuznetsov
+  last_updated_on: 2023-07-04 13:00:38.000000000 Z
+- name: tar
+  description: Tar for node
+  package_url: https://www.npmjs.com/tar
+  version: 6.2.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/DrivenIdeaLab/espocrm/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Taras Machyshyn
+  last_updated_on: 2021-01-25 12:55:03.000000000 Z
